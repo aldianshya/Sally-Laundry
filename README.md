@@ -1,49 +1,72 @@
-<p align="center"><img src="https://via.placeholder.com/400x100?text=Sally+Laundry+Logo" alt="Sally Laundry Logo"></p> <p align="center"> <a href="https://sallylaundry.com"><img src="https://img.shields.io/badge/Sally-Laundry-blue" alt="Sally Laundry Website"></a> <a href="https://instagram.com/sallylaundry"><img src="https://img.shields.io/badge/Follow-@sallylaundry-pink" alt="Instagram Badge"></a> <a href="#"><img src="https://img.shields.io/badge/Status-Open%207%20Days%20a%20Week-brightgreen" alt="Status Badge"></a> </p>
-Tentang Sally Laundry
-Sally Laundry adalah layanan laundry profesional yang hadir untuk membantu Anda menjaga kebersihan pakaian tanpa ribet. Dengan komitmen terhadap kualitas dan kepuasan pelanggan, kami menawarkan proses pencucian yang cepat, higienis, dan terpercaya.
+# 🌟 Sally Laundry  
+**Laundry Praktis, Usaha Otomatis!**  
+_Solusi Laundry Hemat dan Ekonomis_
 
-Kami percaya bahwa waktu Anda terlalu berharga untuk dihabiskan mencuci pakaian, dan karena itu kami hadir untuk meringankan beban Anda. Sally Laundry cocok untuk individu, keluarga, maupun bisnis yang membutuhkan solusi laundry berkualitas tinggi.
+🎯 **Order sekarang!**  
+👉 [Klik di sini untuk pemesanan](#)
 
-Layanan Kami
-Sally Laundry menawarkan berbagai layanan yang dapat disesuaikan dengan kebutuhan Anda:
+---
 
-🧺 Laundry Kiloan – Pakaian harian dicuci, dikeringkan, dan dilipat rapi.
+## 🧺 Tentang Kami
 
-👔 Laundry Satuan – Perawatan khusus untuk pakaian tertentu seperti jas, kebaya, dan dress.
+**Profil Sally Laundry**  
+Sally Laundry adalah salah satu layanan laundry kekinian yang modern, profesional, dan terpercaya. Kami hadir untuk memberikan kemudahan dalam urusan mencuci dan menyetrika, terutama bagi Anda yang memiliki mobilitas tinggi.
 
-🛏️ Laundry Rumah Tangga – Layanan cuci untuk sprei, bed cover, gorden, dan lainnya.
+Kami menerima laundry kiloan maupun satuan untuk perusahaan, rumah tangga, perkantoran, hotel, rumah sakit, dan lainnya. Hubungi kami untuk penawaran khusus!
 
-🚚 Antar Jemput Gratis – Kami menjemput dan mengantar pakaian langsung ke depan pintu Anda.
+> **Laundry Bersih, Wangi, dan Tepat Waktu!**
 
-🕐 Express 4 Jam – Layanan kilat bagi Anda yang butuh cepat.
+---
 
-Mengapa Memilih Sally Laundry?
-✅ Kualitas hasil cucian bersih dan wangi
+## ✨ Layanan Kami
 
-✅ Proses pencucian dengan mesin modern
+- 🧼 **Cuci Lipat Rapi**  
+  Pakaian Anda dicuci bersih dan dilipat rapi seperti baru!
 
-✅ Detergen premium dan ramah lingkungan
+- 👕 **Cuci dan Setrika**  
+  Layanan lengkap dari mencuci hingga menyetrika pakaian Anda.
 
-✅ Layanan pelanggan yang ramah dan responsif
+- 🌸 **Setrika Wangi**  
+  Disetrika hingga wangi dan siap pakai.
 
-✅ Promo dan paket menarik setiap bulan
+- 👔 **Laundry Satuan**  
+  Untuk item tertentu seperti jas, sprei, atau boneka.
 
-Testimoni Pelanggan
-“Sudah coba banyak laundry, tapi cuma Sally Laundry yang benar-benar memuaskan dari segi hasil dan pelayanan!”
-— Anisa, Pelanggan Setia
+---
 
-“Antar jemputnya cepat dan gratis, cocok banget buat ibu-ibu sibuk kayak saya.”
-— Rina, Ibu Rumah Tangga
+## 📊 Rekapitulasi Mingguan
 
-Hubungi Kami
-📍 Alamat: Jl. Melati No. 123, Jakarta
-📱 WhatsApp: 0812-3456-7890
-🌐 Website: sallylaundry.com
-📷 Instagram: @sallylaundry
+**Transaksi | Pelanggan | Jumlah**  
+📅 Dapatkan laporan mingguan terkait jumlah transaksi, pelanggan tetap, dan pendapatan.  
+Laporan ini bisa diakses oleh admin setiap akhir pekan sebagai bahan evaluasi dan pengembangan layanan.
 
-Kemitraan & Kontribusi
-Ingin menjadi bagian dari Sally Laundry atau membuka cabang kemitraan di kota Anda?
-Kunjungi sallylaundry.com/mitra dan isi formulir kerja sama kami.
+---
 
-Lisensi
-Sally Laundry adalah merek dagang terdaftar. Seluruh layanan dilindungi oleh hukum dan etika bisnis yang berlaku di Indonesia.
+## 📱 Follow & Hubungi Kami
+
+- **Instagram**: [@sallylaundry](https://instagram.com/sallylaundry)  
+- **WhatsApp**: [0857-8915-4930](https://wa.me/6285789154930)
+
+---
+
+## 📍 Kontak
+
+**Alamat:**  
+Jl. Falmboyan, RT.2, Mendalo Darat,  
+Kec. Jambi Luar Kota, Kab. Muaro Jambi  
+(Lorong Depan Klinik Unja)
+
+**Telepon / WhatsApp:**  
+📞 [0857-8915-4930](https://wa.me/6285789154930)
+
+**Email:**  
+📧 [admin@sallylaundry.com](mailto:admin@sallylaundry.com)
+
+---
+
+## 📌 Navigasi
+
+- Beranda  
+- Layanan  
+- List Harga  
+- Rekapitulasi

@@ -1,4 +1,5 @@
 # (asset/logo_laundry.png) Sally Laundry  
+![Sally Laundry](asset/logo_laundry.png)
 **Laundry Praktis, Usaha Otomatis!**  
 _Solusi Laundry Hemat dan Ekonomis_
 

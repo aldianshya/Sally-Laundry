@@ -1,4 +1,4 @@
-# 🌟 Sally Laundry  
+# <img src="asset/logo_laundry.png" alt="Sally Laundry" class="img-fluid" style="box-shadow: inset;"/> Sally Laundry  
 **Laundry Praktis, Usaha Otomatis!**  
 _Solusi Laundry Hemat dan Ekonomis_
 

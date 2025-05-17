@@ -68,10 +68,6 @@
         <p class="hero-title mb-4" style="color: white">Laundry Praktis, Usaha Otomatis!</p>
 
         <p class="hero-description mb-4" style="color: white">Solusi Laundry Hemat dan Ekonomis</p>
-
-        <div class="cta-wrapper">
-          <a href="#" class="btn btn-light" style="color: #e6698f; font-weight: bold;">Order Sekarang</a>
-        </div>
       </div>
 
       <div class="col-lg-6">
@@ -251,7 +247,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-  @include('layout.footer') 
+  <!-- @include('layout.footer')  -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script>
     const toast = document.getElementById('toast-alert');

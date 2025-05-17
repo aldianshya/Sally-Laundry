@@ -37,7 +37,7 @@ class LoginController extends Controller
 
     if (Auth::attempt($credentials)) {
         $request->session()->regenerate(); // keamanan sesi
-        return redirect('/')->with('success', 'Login berhasil! Selamat Datang'); // redirect ke halaman utama
+        return redirect('/dashboard')->with('success', 'Login berhasil! Selamat Datang'); // redirect ke halaman utama
     }
 
     return back()->with('error', 'Nomor Handphone atau password salah.');

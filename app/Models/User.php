@@ -45,4 +45,8 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+    public function layananlaundry()
+{
+    return $this->hasMany(LayananLaundry::class);
+}
 }

@@ -6,65 +6,31 @@
     </a>
 
     <nav id="navmenu" class="navmenu ms-auto">
-  <ul class="d-flex">
-    <li>
-  <a href="{{ route('dashboard') }}" 
-     class="{{ request()->routeIs('dashboard') ? 'active' : '' }}">
-    Beranda
-  </a>
-</li>
-<li>
-  <a href="{{ route('list-harga') }}" 
-     class="{{ request()->routeIs('list-harga') ? 'active' : '' }}">
-    List Harga
-  </a>
-</li>
-<li>
-  <a href="#" 
-     class="">
-    Rekapitulasi
-  </a>
-</li>
+      <ul class="nav-list d-flex">
+        <li><a href="{{ route('dashboard') }}" class="{{ request()->routeIs('dashboard') ? 'active' : '' }}">Beranda</a></li>
+        <li><a href="{{ route('list-harga.index') }}" class="{{ request()->routeIs('list-harga.index') ? 'active' : '' }}">List Harga</a></li>
+        <li><a href="#">Rekapitulasi</a></li>
+        <li>
+          <div class="ms-3 d-flex align-items-center">
+            @auth
+              <span class="me-2 fw-bold">Hai, {{ Auth::user()->name }}</span>
+              <form action="{{ route('logout') }}" method="POST" class="d-inline">
+                @csrf
+                <button type="submit" class="btn btn-logout" style="background-color: #F7B2C6; border: none; color: black; width: 100px;">
+                  Logout
+                </button>
+              </form>
+            @else
+              <a href="{{ route('login') }}" class="btn btn-login" style="background-color: #F7B2C6; border: none; color: black; width: 100px; padding: 8px 0;">
+                Login
+              </a>
+            @endauth
+          </div>
+        </li>
+      </ul>
 
-    <li>
-  <div class="ms-3 d-flex align-items-center">
-    @auth
-      <!-- Tampilkan nama admin dengan huruf tebal -->
-      <span class="me-2 fw-bold">Hai, {{ Auth::user()->name }}</span>
-
-      <!-- Tombol Logout -->
-      <form action="{{ route('logout') }}" method="POST" class="d-inline">
-        @csrf
-        <button type="submit" class="btn d-flex justify-content-center align-items-center text-center" style="background-color: #F7B2C6; border: none; color: black; width: 100px;">
-          Logout
-        </button>
-      </form>
-    @else
-    <div class="d-inline">
-  <!-- Jika belum login -->
-  <a href="{{ route('login') }}" 
-     class="btn text-center" 
-     style="background-color: #F7B2C6; border: none; color: black; width: 100px; padding: 8px 0; display: inline-block;">
-    Login
-  </a>
-</div>
-
-    @endauth
-  </div>
-</li>
-
-
-
-  </ul>
-
-  
-
-  <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-</nav>
-
-
-    <!-- Hapus bagian tombol Get Started -->
-    <!-- <a class="btn-getstarted" href="#about">Get Started</a> -->
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
 
   </div>
 </header>

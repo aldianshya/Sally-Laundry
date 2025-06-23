@@ -1,5 +1,5 @@
 <footer id="footer" class="footer border-top" style="padding: 20px 0; background-color: #e86a8f;">
-  <div class="container">
+  <div class="container1">
     <div class="row justify-content-between align-items-center">
 
       <!-- Info Sistem -->

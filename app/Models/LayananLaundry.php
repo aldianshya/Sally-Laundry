@@ -11,7 +11,11 @@ class LayananLaundry extends Model
 
     protected $table = 'Layanan_Laundry';
 
-    protected $fillable = ['user_id', 'nama_layanan', 'kategori'];
+    protected $fillable = [
+    'user_id',
+    'nama_layanan',
+    'kategori',
+];
 
 
     public function user()

@@ -22,9 +22,10 @@ class LayananLaundryController extends Controller
      */
     public function store(Request $request)
     {
+        
         $request->validate([
             'nama_layanan' => 'required|string|max:255',
-            'kategori' => 'required|string|max:100',
+            'kategori' => 'required|in:kiloan,satuan,bulanan I,bulanan II',
         ]);
 
         LayananLaundry::create([
@@ -43,13 +44,11 @@ class LayananLaundryController extends Controller
     {
         $request->validate([
             'nama_layanan' => 'required|string|max:255',
-            'kategori' => 'required|string|max:100',
         ]);
 
         $layanan = LayananLaundry::where('id', $id)->where('user_id', Auth::id())->firstOrFail();
         $layanan->update([
             'nama_layanan' => $request->nama_layanan,
-            'kategori' => $request->kategori,
         ]);
 
         return redirect()->back()->with('success', 'Layanan berhasil diperbarui.');

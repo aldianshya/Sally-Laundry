@@ -14,7 +14,7 @@
 <body>
   @include('layout.pesan') 
 
-  <div class="container d-flex justify-content-center align-items-center min-vh-100">
+  <div class="container1 d-flex justify-content-center align-items-center min-vh-100">
     <div class="w-100" style="max-width: 400px;">
       <div class="text-center">
         <img src="asset/logo_laundry.png" alt="Sally Laundry" class="img-fluid" style="box-shadow: inset;"/>

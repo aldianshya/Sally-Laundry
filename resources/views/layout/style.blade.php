@@ -41,6 +41,7 @@
     }
     body {
     font-family: 'Nunito', sans-serif !important;
+    width: 100%;
   }
   .btn-edit:hover {
         background-color: #ffc107 !important; /* kuning */
@@ -97,12 +98,15 @@
     border-bottom: 1px solid #ddd;
   }
 
-  .nav-list li a {
+  .nav-list li {
     padding: 15px 20px;
     display: block;
     width: 100%;
+    text-decoration: none;
   }
-
+a {
+text-decoration: none;
+}
   /* Jika menu aktif ditampilkan */
   .navmenu.active .nav-list {
     display: flex;
@@ -114,6 +118,37 @@
     cursor: pointer;
   }
 }
+.card {
+      background-color: #f5afcb;
+      padding: 20px;
+      border-radius: 15px;
+      width: 300px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
 
+    .card ul {
+      padding-left: 20px;
+    }
+
+    .card li {
+      margin-bottom: 8px;
+    }
+.section-title1 {
+      background-color: #b30059;
+      color: white;
+      padding: 10px 20px;
+      display: inline-block;
+      border-radius: 20px;
+      margin: 30px auto 10px;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
   </style>
   

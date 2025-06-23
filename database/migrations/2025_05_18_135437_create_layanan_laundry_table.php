@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->string('nama_layanan');
-            $table->string('kategori');
+            $table->enum('kategori', ['kiloan', 'satuan', 'bulanan I', 'bulanan II']);
             $table->timestamps();
         });
     }

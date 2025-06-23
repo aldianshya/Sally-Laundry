@@ -9,7 +9,7 @@
       <ul class="nav-list d-flex">
         <li><a href="{{ route('dashboard') }}" class="{{ request()->routeIs('dashboard') ? 'active' : '' }}">Beranda</a></li>
         <li><a href="{{ route('list-harga.index') }}" class="{{ request()->routeIs('list-harga.index') ? 'active' : '' }}">List Harga</a></li>
-        <li><a href="#">Rekapitulasi</a></li>
+        <li><a href="{{ route('rekapitulasi.index') }}" class="{{ request()->routeIs('rekapitulasi.index') ? 'active' : '' }}">Rekapitulasi</a></li>
         <li>
           <div class="ms-3 d-flex align-items-center">
             @auth

@@ -16,8 +16,9 @@ return new class extends Migration
         Schema::create('list_harga', function (Blueprint $table) {
             $table->id();
             $table->foreignId('layanan_laundry_id')->constrained('layanan_laundry')->onDelete('cascade');
-            $table->string('waktu');
-            $table->decimal('harga', 10, 2);
+            $table->string('nama_layanans')->nullable();
+            $table->string('waktu')->nullable();
+            $table->decimal('harga', 10, 2)->nullable();
             $table->timestamps();
         });
     }

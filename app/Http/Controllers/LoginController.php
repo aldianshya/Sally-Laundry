@@ -17,12 +17,8 @@ class LoginController extends Controller
     public function login(Request $request)
 {
     $messages = [
-        'name.required' => 'Nama wajib diisi.',
         'no_hp.required' => 'Nomor Handphone wajib diisi.',
-        'no_hp.unique' => 'Nomor Handphone sudah terdaftar.',
         'password.required' => 'Kata sandi wajib diisi.',
-        'password.min' => 'Kata sandi minimal terdiri dari :min karakter.',
-        'password.confirmed' => 'Konfirmasi kata sandi tidak sesuai.',
     ];
 
     $request->validate([
@@ -37,11 +33,18 @@ class LoginController extends Controller
 
     if (Auth::attempt($credentials)) {
         $request->session()->regenerate(); // keamanan sesi
-        return redirect('/dashboard')->with('success', 'Login berhasil! Selamat Datang'); // redirect ke halaman utama
+
+        $user = Auth::user();
+        if ($user->role === 'admin') {
+            return redirect()->route('admin.index')->with('success', 'Login berhasil sebagai Admin!');
+        }
+
+        return redirect('/dashboard')->with('success', 'Login berhasil! Selamat Datang');
     }
 
     return back()->with('error', 'Nomor Handphone atau password salah.');
 }
+
 
 
     public function logout(Request $request)

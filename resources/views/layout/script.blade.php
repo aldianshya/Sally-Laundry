@@ -58,6 +58,21 @@
             }
         });
     @endif
+    @if(session('error'))
+        Swal.fire({
+            icon: 'error',
+            title: 'Error!',
+            text: '{{ session('error') }}',
+            showConfirmButton: false,
+            timer: 2500,
+            timerProgressBar: true,
+            background: '#f8bfcf',
+            color: '#832f42',
+            customClass: {
+                popup: 'rounded-4 shadow'
+            }
+        });
+    @endif
 </script>
 <script>
     const deleteModal = document.getElementById('confirmDeleteModal');

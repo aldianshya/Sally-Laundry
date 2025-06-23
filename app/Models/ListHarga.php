@@ -9,12 +9,19 @@ class ListHarga extends Model
 {
     use HasFactory;
 
+    // Nama tabel
     protected $table = 'list_harga';
 
-    protected $fillable = ['layanan_laundry_id', 'waktu', 'harga'];
+    // Kolom yang bisa diisi
+    protected $fillable = [
+        'layanan_laundry_id',
+        'nama_layanans',
+        'waktu',
+        'harga',
+    ];
 
-
-    public function layananlaundry()
+    // Relasi ke tabel layanan_laundry
+    public function layananLaundry()
     {
         return $this->belongsTo(LayananLaundry::class, 'layanan_laundry_id');
     }

@@ -10,6 +10,7 @@ body {
   color: #fff;
   /* HAPUS opacity: 10px; karena itu salah */
   filter: brightness(1.1) contrast(1.2) saturate(1.3);
+  width: 100%;
 }
 
 /* Overlay gelap sebagai peredup */
@@ -21,7 +22,7 @@ body::before {
   z-index: 0;
 }
 
-.container {
+.container1 {
   position: relative;
   z-index: 1;
 }
